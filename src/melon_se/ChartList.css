@@ -1,0 +1,22 @@
+.ChartList { font-size: smaller;}
+.ChartList table {width:100% }
+.ChartList table .w1{ width: 7% }
+.ChartList table .w2{}
+.ChartList table .w3{ width:25% }
+.ChartList table .w4{ width:10% }
+.ChartList table .w5{ width:10% }
+.ChartList table .w6{ width:10% }
+.ChartList table th ,.ChartList table td { border-bottom: 1px solid #dcdcdc; vertical-align: middle; text-align: center; }
+.ChartList table thead tr th { border-top: 1px solid #000 ; height:50px }
+.ChartList table tbody tr td { padding:5px; }
+.ChartList table tbody tr td:nth-child(2) {text-align: left;}
+.ChartList table tbody tr td:nth-child(3) {text-align: left;}
+.ChartList table tbody tr:last-child td {border-bottom:1px solid #000}
+.ChartList table tbody tr td img {margin-right:20px; vertical-align: middle; height: 70px; object-fit: cover;}
+.ChartList table tbody tr td i {font-size: 20px; vertical-align: middle; cursor: pointer;}
+.ChartList table tbody tr td.like i {margin-right: 5px;}
+
+.ChartList table tbody tr td.img  {display: flex; }
+.ChartList table tbody tr td.img .button {width: 60px; border: none;  border-radius: 0; background-size: contain; }
+.ChartList table tbody tr td.img p {padding: auto 0; margin: 10px 20px;}
+.ChartList table tbody tr td.img p span{display: block;; color:#000 }
